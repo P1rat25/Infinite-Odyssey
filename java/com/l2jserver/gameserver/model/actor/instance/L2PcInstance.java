@@ -2673,6 +2673,11 @@ public final class L2PcInstance extends L2Playable
 				_log.warning("Skipping null auto-get skill for player: " + toString());
 			}
 		}
+		// Fix for R99 expertise
+		if (getLevel() >= 99)
+		{
+			addSkill(st.getSkill(CommonSkill.EXPERTISE.getId(), 10), true);
+		}
 	}
 	
 	/**
