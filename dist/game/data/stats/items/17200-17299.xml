@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="17200" name="National Representative Warrior's Earring" type="Armor">
+		<set name="bodypart" val="rear;lear"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.accessory_earring_of_hero_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="GOLD"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="71"/>
+			<add stat="maxMp" val="31"/>
+		</for>
+	</item>
+	<item id="17201" name="Mark of Cheers" type="EtcItem">
+		<set name="icon" val="BranchSys2.icon.br_cheer_symbol_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17202" name="Mark of Cheers 10-unit Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17203" name="Agathion - Ball Trapping Gnosian" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_male_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="8515-1;23236-1;23237-1;3267-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17204" name="Agathion - Ball Trapping Orodriel" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_female_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="8516-1;23236-1;23237-1;3267-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17205" name="Agathion - Penalty Kick" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_kick_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="8517-1;23236-1;23237-1;3267-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17206" name="Nevit's Hourglass - 1 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="material" val="LIQUID" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9167-1" />
+	</item>
+	<item id="17207" name="Nevit's Hourglass - 1.5 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17208" name="Nevit's Hourglass - 2 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17209" name="Nevit's Hourglass - 2.5 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17210" name="Nevit's Hourglass - 3 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17211" name="Nevit's Hourglass - 4 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17212" name="Nevit's Voice" type="EtcItem">
+		<set name="icon" val="icon.etc_fish_scale_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17213" name="Solina's Biography" type="EtcItem">
+		<set name="icon" val="icon.etc_old_evil_book_i00"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17214" name="Kaerun's Memoir" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17215" name="Kaerun's Memoir Part 1" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17216" name="Kaerun's Memoir Part 2" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17217" name="Kaerun's Memoir Part 3" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17218" name="Kaerun's Memoir Part 4" type="EtcItem">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17219" name="Eris's Chronicle" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_red_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17220" name="Catalog Card" type="EtcItem">
+		<set name="icon" val="icon.etc_roll_of_paper_black_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17221" name="Key to the Passageway" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17222" name="Key to the Tomb" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17223" name="Key to the Library" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17224" name="Key to the Warehouse" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17225" name="Key to the Armory" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17226" name="Elcadia's Mark" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_mantra_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17227" name="Elcadia's Token" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_rune_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17228" name="Scroll of Abstinence" type="EtcItem">
+		<set name="icon" val="icon.etc_spell_books_element_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17229" name="Shield of Sacrifice" type="EtcItem">
+		<set name="icon" val="icon.shield_shrnoens_shield_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17230" name="Sword of Holy Spirit" type="EtcItem">
+		<set name="icon" val="icon.weapon_raid_sword_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17231" name="Staff of Blessing" type="EtcItem">
+		<set name="icon" val="icon.weapon_mace_of_prayer_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17232" name="Agathion - Ball Trapping Gnosian Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17233" name="Agathion - Ball Trapping Orodriel Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17234" name="Agathion - Penalty Kick Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17235" name="World Cup Special Gift" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="material" val="STEEL"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="17236" name="Gift of Victory Box" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17237" name="Luxury Gift of Victory Box" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17238" name="Olympiad Match 3 Participation Certificate" type="EtcItem">
+		<set name="icon" val="icon.mercenary_certification_i00"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17239" name="Olympiad Match 5 Participation Certificate" type="EtcItem">
+		<set name="icon" val="icon.mercenary_certification_i01"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17240" name="Olympiad Match 10 Participation Certificate" type="EtcItem">
+		<set name="icon" val="icon.mercenary_certification_i02"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17241" name="Olympiad Team Event Certificate" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i01"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17242" name="Olympiad All-Class Battle Certificate" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i03"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17243" name="Olympiad Class Battle Certificate" type="EtcItem">
+		<set name="icon" val="icon.scroll_of_verification_i00"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17244" name="Olympiad 2 Consecutive Wins Confirmation" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_courage_i01"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17245" name="Olympiad 5 Consecutive Wins Confirmation" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_courage_i02"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17246" name="Olympiad 10 Consecutive Wins Confirmation" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_courage_i03"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17247" name="Party Vitality Replenishing Herb" type="EtcItem">
+		<set name="is_depositable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17248" name="Large Dragon Bone" type="EtcItem">
+		<set name="icon" val="icon.big_dragon_bone_summon"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_stackable" val="true"/>
+		<set name="commissionItemType" val="OTHER_ITEM"/>
+	</item>
+	<item id="17249" name="Large Dragon Skull" type="EtcItem">
+		<set name="icon" val="icon.etc_fang_red_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17250" name="Large Baby Dragon" type="EtcItem">
+		<set name="icon" val="icon.etc_claw_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17251" name="Drake Lord's Essence" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_blue_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17252" name="Behemoth Leader's Essence" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_green_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17253" name="Dragon Beast's Essence" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_gold_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17254" name="Box of Theodric" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+	</item>
+	<item id="17255" name="Blessed Scroll: Enchant Weapon (A-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="15000000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2027-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON"/>
+	</item>
+	<item id="17256" name="Blessed Scroll: Enchant Armor (A-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="1800000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2209-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR"/>
+	</item>
+	<item id="17257" name="Blessed Scroll: Enchant Weapon (B-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="7000000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2028-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON"/>
+	</item>
+	<item id="17258" name="Blessed Scroll: Enchant Armor (B-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="750000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2210-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR"/>
+	</item>
+	<item id="17259" name="Blessed Scroll: Enchant Weapon (C-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="3000000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2029-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON"/>
+	</item>
+	<item id="17260" name="Blessed Scroll: Enchant Armor (C-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="350000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2211-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR"/>
+	</item>
+	<item id="17261" name="Blessed Scroll: Enchant Weapon (D-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="900000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2030-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON"/>
+	</item>
+	<item id="17262" name="Blessed Scroll: Enchant Armor (D-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="100000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2212-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR"/>
+	</item>
+	<item id="17263" name="Blessed Scroll: Enchant Weapon (S-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="30000000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2026-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_WEAPON"/>
+	</item>
+	<item id="17264" name="Blessed Scroll: Enchant Armor (S-Grade) - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+		<set name="price" val="4500000"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="2208-1"/>
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR"/>
+	</item>
+	<item id="17265" name="Certificate of Dawn" type="EtcItem">
+		<set name="icon" val="icon.etc_charm_of_courage_i05"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="17266" name="Will of Antharas" type="EtcItem">
+		<set name="icon" val="icon.etc_unholy_potion_i00"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_stackable" val="true"/>
+		<set name="commissionItemType" val="OTHER_ITEM"/>
+	</item>
+	<item id="17267" name="Sealed Blood Crystal" type="EtcItem">
+		<set name="icon" val="icon.etc_powder_red_i00"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_stackable" val="true"/>
+		<set name="commissionItemType" val="OTHER_ITEM"/>
+	</item>
+	<item id="17268" name="Antharas Blood Crystal" type="EtcItem">
+		<set name="icon" val="icon.etc_fire_crystal_1_i00"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="5"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9179-1"/>
+		<cond msgId="113" addName="1">
+			<player insideZoneId="70050"/>
+		</cond>
+	</item>
+	<item id="17269" name="Agathion - Antharas" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="8521-1;6916-1;3267-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17270" name="Agathion Seal Bracelet - Nevit's Messenger Kanna" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="3267-1;8522-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17271" name="Agathion - Guardian of Dawn Kallesin" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="3267-1;8523-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="17272" name="Agathion - Antharas Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17273" name="Nevit's Messenger Kanna Agathion Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17274" name="Agathion - Guardian of Dawn Kallesin Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17275" name="Strider Pet Coupon" type="EtcItem">
+		<set name="icon" val="icon.etc_ticket_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="17276" name="5,000,000 SP scroll" type="EtcItem">
+		<set name="icon" val="icon.etc_sp_scroll3_i00"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="SCROLL"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9180-1"/>
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+	</item>
+	<item id="17277" name="100,000,000 SP scroll" type="EtcItem">
+		<set name="icon" val="icon.etc_sp_scroll3_i00"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="SCROLL"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="30"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="ItemSkills"/>
+		<set name="item_skill" val="9180-2"/>
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+	</item>
+	<item id="17278" name="Strider Pet Exchange Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17279" name="Transformation Scroll: Anakim Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17280" name="Transformation Sealbook: Anakim Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17281" name="Delivery Box" type="EtcItem">
+		<set name="icon" val="icon.etc_jewel_box_i00"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_questitem" val="true"/>
+	</item>
+	<item id="17282" name="2010 Summer Special Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17283" name="Nevit's Hourglass - 4 hour" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_freightable" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="17284" name="Nevit's Hourglass - 4 hour - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_freightable" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="17285" name="Freya's Refreshing Breeze" type="EtcItem">
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="17286" name="Freya's Refreshing Breeze - Event" type="EtcItem">
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="LIQUID"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="17287" name="2010 Summer Special Pack" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="STEEL"/>
+	</item>
+	<item id="17288" name="Ice Watermelon Hat" type="Armor">
+		<set name="bodypart" val="hairall"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys.icon.br_watermelon_cap_a_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="WOOD"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17289" name="Ice Watermelon Hat" type="Armor">
+		<set name="bodypart" val="hairall"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys.icon.br_watermelon_cap_a_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_destroyable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="material" val="WOOD"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="17290" name="Requiem Shaper" type="Weapon">
+		<set name="icon" val="icon.weapon_aspeda_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="DAGGER"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1520"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="DAGGER"/>
+		<for>
+			<set stat="pAtk" val="380.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="433.0"/>
+			<set stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="17291" name="Requiem Cutter" type="Weapon">
+		<set name="icon" val="icon.weapon_estia_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="SWORD"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1520"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="ONE_HAND_SWORD"/>
+		<for>
+			<set stat="pAtk" val="435.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="379.0"/>
+			<set stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="17292" name="Requiem Slasher" type="Weapon">
+		<set name="icon" val="icon.weapon_polion_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="weapon_type" val="SWORD"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1740"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="TWO_HAND_SWORD"/>
+		<for>
+			<set stat="pAtk" val="529.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="325.0"/>
+			<set stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="17293" name="Requiem Avenger" type="Weapon">
+		<set name="icon" val="icon.weapon_batista_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="BLUNT"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1740"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="BLUNT_WEAPON"/>
+		<for>
+			<set stat="pAtk" val="435.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="379.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<set stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="17294" name="Requiem Fighter" type="Weapon">
+		<set name="icon" val="icon.weapon_fantasma_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="weapon_type" val="DUALFIST"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1550"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="FIST_WEAPON"/>
+		<for>
+			<set stat="pAtk" val="529.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<set stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="17295" name="Requiem Stormer" type="Weapon">
+		<set name="icon" val="icon.weapon_soryu_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="weapon_type" val="POLE"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="2010"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="SPEAR"/>
+		<for>
+			<set stat="pAtk" val="435.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="325.0"/>
+			<set stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="17296" name="Requiem Thrower" type="Weapon">
+		<set name="icon" val="icon.weapon_grabathus_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="weapon_type" val="BOW"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1520"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="BOW"/>
+		<for>
+			<set stat="pAtk" val="856.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="293.0"/>
+			<set stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="17297" name="Requiem Shooter" type="Weapon">
+		<set name="icon" val="icon.weapon_shyayaka_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="lrhand"/>
+		<set name="weapon_type" val="CROSSBOW"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1580"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="CROSSBOW"/>
+		<for>
+			<set stat="pAtk" val="771.0"/>
+			<set stat="mAtk" val="189.0"/>
+			<set stat="pAtkSpd" val="325.0"/>
+			<set stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="17298" name="Requiem Buster" type="Weapon">
+		<set name="icon" val="icon.weapon_kaynon_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="SWORD"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1520"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_SWORD"/>
+		<for>
+			<set stat="pAtk" val="348.0"/>
+			<set stat="mAtk" val="252.0"/>
+			<set stat="pAtkSpd" val="379.0"/>
+			<set stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="17299" name="Requiem Caster" type="Weapon">
+		<set name="icon" val="icon.weapon_anatrian_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rhand"/>
+		<set name="weapon_type" val="BLUNT"/>
+		<set name="crystal_type" val="R"/>
+		<set name="crystal_count" val="1202"/>
+		<set name="element_enabled" val="true"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="weight" val="1080"/>
+		<set name="price" val="56345583"/>
+		<set name="soulshots" val="1"/>
+		<set name="spiritshots" val="1"/>
+		<set name="commissionItemType" val="ONE_HAND_MAGIC_BLUNT_WEAPON"/>
+		<for>
+			<set stat="pAtk" val="348.0"/>
+			<set stat="mAtk" val="252.0"/>
+			<set stat="pAtkSpd" val="379.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<set stat="critRate" val="6.0"/>
+		</for>
+	</item>
+</list>

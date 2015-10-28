@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="36200" name="Shooter Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1333.0"/>
+			<add stat="mAtk" val="414.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36201" name="Buster Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_infinity_sword_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="602.0"/>
+			<add stat="mAtk" val="486.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36202" name="Caster Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="602.0"/>
+			<add stat="mAtk" val="486.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36203" name="Retributer Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="733.0"/>
+			<add stat="mAtk" val="535.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="accMagic" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36204" name="Dualsword Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="916.0"/>
+			<add stat="mAtk" val="414.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36205" name="Dual Dagger Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="752.0"/>
+			<add stat="mAtk" val="414.0"/>
+			<add stat="pAtkSpd" val="433.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36206" name="Dual Blunt Sealed with Heroes' Power" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="916.0"/>
+			<add stat="mAtk" val="414.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36207" name="Shaper Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_dagger_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="881.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="433.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36208" name="Cutter Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_sword_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1007.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36209" name="Slasher Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_two_handed_sword_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1225.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36210" name="Avenger Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_axe_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1007.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36211" name="Fighter Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_fist_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1225.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36212" name="Stormer Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_pole_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1007.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36213" name="Thrower Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_bow_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1983.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="293.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36214" name="Shooter Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_infinity_shooter_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1786.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36215" name="Buster Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_infinity_sword_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="805.0"/>
+			<add stat="mAtk" val="696.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36216" name="Caster Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="805.0"/>
+			<add stat="mAtk" val="696.0"/>
+			<add stat="pAtkSpd" val="379.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36217" name="Retributer Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="981.0"/>
+			<add stat="mAtk" val="765.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="accMagic" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36218" name="Dualsword Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualsword_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1225.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="critRate" val="8.0"/>
+		</for>
+	</item>
+	<item id="36219" name="Dual Dagger Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualdagger_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1007.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="433.0"/>
+			<add stat="critRate" val="12.0"/>
+		</for>
+	</item>
+	<item id="36220" name="Dual Blunt Imbued with Heroes' Power" additionalName="2-hour" type="Weapon">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.weapon_r_dualblunt_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7200"/>
+		<set name="weight" val="500"/>
+		<for>
+			<add stat="pAtk" val="1225.0"/>
+			<add stat="mAtk" val="521.0"/>
+			<add stat="pAtkSpd" val="325.0"/>
+			<add stat="accCombat" val="8.0"/>
+			<add stat="critRate" val="6.0"/>
+		</for>
+	</item>
+	<item id="36221" name="Scroll Imbued with Heroes' Power" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_hero_scroll"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36222" name="Kaliel's Cube" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_cube"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36223" name="Entrance Pass: Emperor's Labyrinth Lv. 85 Solo" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36224" name="Entrance Pass: Emperor's Labyrinth Lv. 90 Solo" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36225" name="Entrance Pass: Emperor's Labyrinth Lv. 95 Solo" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36226" name="Entrance Pass: Emperor's Labyrinth Lv. 85 Party" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36227" name="Mark of Kargos" type="EtcItem">
+		<set name="icon" val="icon.fairy_encounter_letter"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36228" name="Visitor's Badge" type="EtcItem">
+		<set name="icon" val="icon.etc_red_rose_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36229" name="Pagan's Badge" type="EtcItem">
+		<set name="icon" val="icon.etc_totem_necklace_red_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36230" name="Pagan Totem" type="EtcItem">
+		<set name="icon" val="icon.etc_totem_necklace_green_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36231" name="Pagan Soul" type="EtcItem">
+		<set name="icon" val="icon.etc_crystal_ball_white_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36232" name="Divine Box" type="EtcItem">
+		<set name="icon" val="icon.etc_box_of_adventure_3_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36234" name="Boss Accessory Pack" additionalName="1-day" type="EtcItem">
+		<set name="icon" val="icon.etc_ev_draco_gift_box"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="86400"/>
+	</item>
+	<item id="36235" name="Istina's Necklace" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.istina_necklace_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="205.0"/>
+		</for>
+	</item>
+	<item id="36236" name="Istina's Ring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.istina_ring_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="103.0"/>
+		</for>
+	</item>
+	<item id="36237" name="Istina's Earring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.istina_earring_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="154.0"/>
+		</for>
+	</item>
+	<item id="36238" name="Octavis' Ring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.octavis_ring_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="103.0"/>
+		</for>
+	</item>
+	<item id="36239" name="Octavis' Necklace" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.octavis_necklace_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="205.0"/>
+		</for>
+	</item>
+	<item id="36240" name="Octavis' Earring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.octavis_earring_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="154.0"/>
+		</for>
+	</item>
+	<item id="36241" name="Blessed Antharas' Earring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="170.0"/>
+		</for>
+	</item>
+	<item id="36242" name="Blessed Valakas' Necklace" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.accessory_necklace_of_valakas_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="226.0"/>
+		</for>
+	</item>
+	<item id="36243" name="Earth Wyrm Heart Ring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.ring_earthworm_heart"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="108.0"/>
+		</for>
+	</item>
+	<item id="36244" name="Tauti's Ring" additionalName="3-hour" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.accessary_tauti_ring"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="10800"/>
+		<set name="weight" val="150"/>
+		<for>
+			<add order="0" stat="mDef" val="108.0"/>
+		</for>
+	</item>
+	<item id="36245" name="Charlotte's Vitality Replenishing Potion" type="EtcItem">
+		<set name="icon" val="icon.etc_potion_red_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36246" name="Verdof's Invitation" type="EtcItem">
+		<set name="icon" val="icon.etc_letter_envelope_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36247" name="Key of Pagans" type="EtcItem">
+		<set name="icon" val="icon.etc_old_key_i01"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36248" name="Memorable Raid Box: Queen Ant" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36249" name="Memorable Raid Box: Orfen" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36250" name="Memorable Raid Box: Anakim" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36251" name="Memorable Raid Box: Lilith" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i08"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36252" name="Bottle of Queen Ant's Soul" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i09"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="commissionItemType" val="OTHER_ITEM"/>
+	</item>
+	<item id="36253" name="Bottle of Orfen's Soul" type="EtcItem">
+		<set name="icon" val="icon.etc_fruit_juice_glass_bottle_i10"/>
+		<set name="weight" val="60"/>
+		<set name="is_stackable" val="true"/>
+		<set name="commissionItemType" val="OTHER_ITEM"/>
+	</item>
+	<item id="36254" name="Queen Ant's Soul Ring" type="Armor">
+		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rfinger;lfinger"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="crystal_count" val="987"/>
+		<set name="crystal_type" val="R"/>
+		<set name="material" val="GOLD"/>
+		<set name="weight" val="150"/>
+		<set name="price" val="46311000"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13441-1"/>
+		<set name="commissionItemType" val="RING"/>
+		<for>
+			<add order="0" stat="mDef" val="79"/>
+			<add stat="maxMp" val="31"/>
+			<enchant stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36255" name="Orfen's Soul Earring" type="Armor">
+		<set name="icon" val="icon.accessory_earring_of_orfen_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="rear;lear"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="crystal_count" val="1481"/>
+		<set name="crystal_type" val="R"/>
+		<set name="material" val="GOLD"/>
+		<set name="weight" val="150"/>
+		<set name="price" val="69466000"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13442-1"/>
+		<set name="commissionItemType" val="EARRING"/>
+		<for>
+			<add order="0" stat="mDef" val="118"/>
+			<add stat="maxMp" val="46"/>
+			<enchant stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36256" name="Transformation Scroll: Anakim" type="EtcItem">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36257" name="Lilith's Soul Necklace" type="Armor">
+		<set name="icon" val="icon.accessary_blessed_lilith"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="bodypart" val="neck"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="crystal_count" val="1975"/>
+		<set name="crystal_type" val="R"/>
+		<set name="material" val="GOLD"/>
+		<set name="weight" val="150"/>
+		<set name="price" val="92622000"/>
+		<set name="enchant_enabled" val="1"/>
+		<set name="item_skill" val="13443-1"/>
+		<set name="commissionItemType" val="NECKLACE"/>
+		<for>
+			<add order="0" stat="mDef" val="158"/>
+			<add stat="maxMp" val="62"/>
+			<enchant stat="mDef" val="0"/>
+		</for>
+	</item>
+	<item id="36258" name="Transformation Potion: Queen Ant" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_clear_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36259" name="Transformation Potion: Orfen" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36260" name="Transformation Potion: Anakim" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36261" name="Transformation Potion: Lilith" type="EtcItem">
+		<set name="icon" val="icon.etc_lesser_potion_red_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36267" name="Dimension Crumbs" type="EtcItem">
+		<set name="icon" val="icon.etc_broken_crystal_blue_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36268" name="Entrance Pass: Emperor's Labyrinth Lv. 90 Party" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36269" name="Entrance Pass: Emperor's Labyrinth Lv. 95 Party" type="EtcItem">
+		<set name="icon" val="icon.etc_bm_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36270" name="Entrance Pass: Teredor" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36271" name="Entrance Pass: Spezion (Normal)" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36272" name="Entrance Pass: Spezion (Epic)" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36273" name="Entrance Pass: Fortuna" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36274" name="Entrance Pass: Nornil's Garden" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36275" name="Entrance Pass: Istina (Normal)" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36276" name="Entrance Pass: Octavis (Normal)" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36277" name="Entrance Pass: Baylor" type="EtcItem">
+		<set name="icon" val="icon.etc_kalie_instantzone_re"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="36278" name="Pagan Blood" type="EtcItem">
+		<set name="icon" val="icon.etc_dragons_blood_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36279" name="Pagan Devil Circlet" type="Armor">
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="36280" name="Pagan Devil Circlet" type="Armor">
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="36281" name="Pagan Devil Circlet" type="Armor">
+		<set name="icon" val="icon.Accessary_demon_circlet_i00"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="weight" val="10"/>
+	</item>
+	<item id="36282" name="Error Compensation Package" type="EtcItem">
+		<set name="icon" val="icon.etc_treasure_box_i05"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="36283" name="Blessed Scroll: Enchant Weapon (R-grade)" additionalName="Event" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_weapon_i06"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="9187-1"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36284" name="Blessed Scroll: Enchant Armor (R-grade)" additionalName="Event" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="icon.blessed_scroll_of_enchant_armor_i06"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="9196-1"/>
+		<set name="material" val="PAPER"/>
+		<set name="weight" val="120"/>
+	</item>
+	<item id="36285" name="Unbind Scroll: Armor (R-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36286" name="Unbind Scroll: Armor (R95-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r95_armor"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36287" name="Unbind Scroll: Armor (R99-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r99_armor"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36288" name="Unbind Scroll: Weapon (R-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r_armor"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36289" name="Unbind Scroll: Weapon (R95-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r95"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36290" name="Unbind Scroll: Weapon (R99-grade)" type="EtcItem">
+		<set name="commissionItemType" val="SCROLL_OTHER"/>
+		<set name="icon" val="icon.cursed_free_r99"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36291" name="Unbind Scroll: Weapon (R-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r_armor"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36292" name="Unbind Scroll: Weapon (R95-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r95"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36293" name="Scroll of Blessing: Weapon (R-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r1"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36294" name="Unbind Scroll: Weapon (R-grade)" additionalName="Event" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r_armor"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36295" name="Unbind Scroll: Weapon (R95-grade)" additionalName="Event" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r95"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36296" name="Unbind Scroll: Armor (R-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36297" name="Unbind Scroll: Armor (R95-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r95_armor"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36298" name="Scroll of Blessing: Weapon (R95-grade)" additionalName="Campaign" type="EtcItem">
+		<set name="icon" val="icon.bless_scroll_r95"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+	<item id="36299" name="Unbind Scroll: Armor (R-grade)" additionalName="Event" type="EtcItem">
+		<set name="icon" val="icon.cursed_free_r"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="2"/>
+	</item>
+</list>

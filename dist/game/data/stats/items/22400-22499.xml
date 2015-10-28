@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="22400" name="Agathion - Valakas" additionalName="Lv. 7" type="Armor">
+		<set name="bodypart" val="lbracelet"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys2.icon.br_aga_valakas_01_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="3267-1;21273-1;23346-1"/>
+		<set name="material" val="SILVER"/>
+		<set name="unequip_skill" val="3267-1"/>
+		<set name="weight" val="150"/>
+	</item>
+	<item id="22401" name="Root of Evolution" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_aga_valakas_lifespring"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22402" name="Weapon Appearance Stone (R-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_r"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22403" name="Weapon Appearance Stone (S-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_s"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22404" name="Weapon Appearance Stone (A-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_a"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22405" name="Weapon Appearance Stone (B-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_b"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22406" name="Weapon Appearance Stone (C-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_c"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22407" name="Weapon Appearance Stone (D-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_processing_stone_d"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22408" name="Blessed Weapon Appearance Stone (R-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_r"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22409" name="Blessed Weapon Appearance Stone (S-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_s"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22410" name="Blessed Weapon Appearance Stone (A-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_a"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22411" name="Blessed Weapon Appearance Stone (B-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_b"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22412" name="Blessed Weapon Appearance Stone (C-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_c"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22413" name="Blessed Weapon Appearance Stone (D-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_bless_wp_processing_stone_d"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22414" name="Weapon Restoration Stone (R-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_r"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22415" name="Weapon Restoration Stone (S-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_s"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22416" name="Weapon Restoration Stone (A-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_a"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22417" name="Weapon Restoration Stone (B-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_b"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22418" name="Weapon Restoration Stone (C-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_c"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22419" name="Weapon Restoration Stone (D-grade)" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_wp_restore_stone_d"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22420" name="(Test) Emerald Sword Appearance Stone" type="EtcItem">
+		<set name="handler" val="Appearance"/>
+		<set name="icon" val="BranchSys3.icon.g_particular_wp_processing_stone_prim"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22421" name="Holiday Tree - Star Ornament" additionalName="Event" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_star"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="22422" name="Holiday Tree - Globe Ornament" additionalName="Event" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_bead"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="22423" name="Holiday Tree - Garland Ornament" additionalName="Event" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_band"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="22424" name="Holiday Tree - Bow Ornament" additionalName="Event" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_christmas_tree_ribbon"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_questitem" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="20"/>
+	</item>
+	<item id="22425" name="Scroll: Enchant Weapon (R-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_wp_s_i00"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="SCRL_ENCHANT_WP"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="9185-1"/>
+	</item>
+	<item id="22426" name="Ancient Scroll: Enchant Weapon (R-grade)" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="22440-1"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="22427" name="Heavenly Scroll: Enchant Weapon (R-grade)" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_WP"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_wp_s_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="22440-1"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="22428" name="Scroll: Enchant Armor (R-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_scrl_of_ench_am_s_i00"/>
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="SCRL_ENCHANT_AM"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="material" val="PAPER"/>
+		<set name="is_tradable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_oly_restricted" val="true"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="item_skill" val="9186-1"/>
+	</item>
+	<item id="22429" name="Ancient Scroll: Enchant Armor (R-grade)" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="22443-1"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="22430" name="Heavenly Scroll: Enchant Armor (R-grade)" type="EtcItem">
+		<set name="default_action" val="SKILL_REDUCE"/>
+		<set name="etcitem_type" val="ANCIENT_CRYSTAL_ENCHANT_AM"/>
+		<set name="handler" val="EnchantScrolls"/>
+		<set name="icon" val="BranchSys.icon.br_holy_cry_of_ench_am_s_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_premium" val="true"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="22443-1"/>
+		<set name="material" val="PAPER"/>
+	</item>
+	<item id="22431" name="Radiant Fortuna Box" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_box_r"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22432" name="Radiant Fortuna Cube" type="EtcItem">
+		<set name="icon" val="BranchSys3.icon.g_cash_fortuna_cube_r"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22433" name="Soulshot (R-grade)" type="EtcItem">
+		<set name="crystal_type" val="R"/>
+		<set name="default_action" val="SOULSHOT"/>
+		<set name="handler" val="SoulShots"/>
+		<set name="icon" val="icon.soulshot_r_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="9193-1"/>
+		<set name="material" val="PAPER"/>
+		<set name="price" val="1000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22434" name="Blessed Spiritshot (R-grade)" type="EtcItem">
+		<set name="crystal_type" val="R"/>
+		<set name="default_action" val="SPIRITSHOT"/>
+		<set name="handler" val="BlessedSpiritShot"/>
+		<set name="icon" val="icon.blessed_spiritshot_r_i00"/>
+		<set name="immediate_effect" val="true"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="item_skill" val="9195-1"/>
+		<set name="material" val="PAPER"/>
+		<set name="price" val="350"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22435" name="Scroll of Escape" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22436" name="Scroll of Escape: Castle" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22437" name="Scroll of Escape: Clan Hall" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22438" name="Blessed Scroll of Escape" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22439" name="Blessed Scroll of Escape: Castle" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22440" name="Blessed Scroll of Escape: Clan Hall" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22441" name="Blessed Scroll of Resurrection (Pet)" type="EtcItem">
+		<set name="icon" val="icon.etc_scroll_of_resurrection_pet_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22442" name="Improved Bronze Bracelet" type="Armor">
+		<set name="crystal_type" val="B"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_b_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weapon_type" val="ETC"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22443" name="Improved Steel Bracelet" type="Armor">
+		<set name="crystal_type" val="A"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_a_i02"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weapon_type" val="ETC"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22444" name="Improved Mithril Bracelet" type="Armor">
+		<set name="crystal_type" val="S"/>
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weapon_type" val="ETC"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22445" name="Vitality Replenishing Potion 5-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22446" name="Vitality Maintaining Potion 5-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22447" name="Vitality Recovering Potion 5-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22448" name="Soulshot Medium Pack (5000 R-grade)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="1000"/>
+	</item>
+	<item id="22449" name="Soulshot Large Pack (10000 R-grade)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_soulshot_r_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="1000"/>
+	</item>
+	<item id="22450" name="Blessed Spiritshot Medium Pack (R-grade) (5000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="1000"/>
+	</item>
+	<item id="22451" name="Blessed Spiritshot Large Pack (R-grade) (10000)" type="EtcItem">
+		<set name="icon" val="icon.br_cash_pack_of_blessed_spiritshot_r_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="1000"/>
+	</item>
+	<item id="22452" name="Scroll of Escape 10-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22453" name="Scroll of Escape: Castle 10-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22454" name="Scroll of Escape: Clan Hall 10-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22455" name="Improved Bronze Bracelet Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22456" name="Improved Steel Bracelet Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22457" name="Blessed Scroll of Resurrection (Pet) Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22458" name="Weapon Appearance/Restoration Stone Pack (R-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22459" name="Weapon Appearance/Restoration Stone Pack (S-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22460" name="Weapon Appearance/Restoration Stone Pack (A-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22461" name="Weapon Appearance/Restoration Stone Pack (B-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22462" name="Weapon Appearance/Restoration Stone Pack (C-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22463" name="Weapon Appearance/Restoration Stone Pack (D-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22464" name="Blessed Weapon Appearance/Restoration Stone Pack (R-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22465" name="Blessed Weapon Appearance/Restoration Stone Pack (S-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22466" name="Blessed Weapon Appearance/Restoration Stone Pack (A-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22467" name="Blessed Weapon Appearance/Restoration Stone Pack (B-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22468" name="Blessed Weapon Appearance/Restoration Stone Pack (C-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22469" name="Blessed Weapon Appearance/Restoration Stone Pack (D-grade)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22470" name="Superior Healing Potion 5-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22471" name="Superior Quick Healing Potion 5-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22472" name="Adventurer's Song - Energy of Recovery 3-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22473" name="Talisman Box" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+	</item>
+	<item id="22474" name="Heavenly Cocktail 3-unit Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22475" name="Santa Girl's Gift Box" additionalName="Event" type="EtcItem">
+		<set name="icon" val="icon.etc_pi_gift_box_i04"/>
+		<set name="is_stackable" val="true"/>
+	</item>
+	<item id="22476" name="Santa Girl's Red Stockings" additionalName="Event" type="EtcItem">
+		<set name="icon" val="icon.xmas_present_i00"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="weight" val="5"/>
+	</item>
+	<item id="22477" name="Santa Girl's Cloak" additionalName="1-day (Event)" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="86400"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add stat="pDef" val="20.0"/>
+		</for>
+	</item>
+	<item id="22478" name="Santa Girl's Cloak" additionalName="7-day (Event)" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="604800"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add stat="pDef" val="20.0"/>
+		</for>
+	</item>
+	<item id="22479" name="Santa Girl's Cloak" additionalName="30-day (Event)" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="2592000"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add stat="pDef" val="20.0"/>
+		</for>
+	</item>
+	<item id="22480" name="Santa Girl's Cloak" additionalName="Event" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="BranchSys3.icon.g_christmas_cloak"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="220"/>
+		<for>
+			<add stat="pDef" val="20.0"/>
+		</for>
+	</item>
+	<item id="22481" name="Improved Bronze Bracelet" additionalName="1-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_b_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="86400"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22482" name="Improved Bronze Bracelet" additionalName="15-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_b_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="1296000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22483" name="Improved Bronze Bracelet" additionalName="30-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_b_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="2592000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22484" name="Improved Bronze Bracelet" additionalName="90-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_b_i01"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7776000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22485" name="Improved Steel Bracelet" additionalName="1-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_a_i02"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="86400"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22486" name="Improved Steel Bracelet" additionalName="15-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_a_i02"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="1296000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22487" name="Improved Steel Bracelet" additionalName="30-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_a_i02"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="2592000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22488" name="Improved Steel Bracelet" additionalName="90-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_a_i02"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7776000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22489" name="Improved Mithril Bracelet" additionalName="1-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="86400"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22490" name="Improved Mithril Bracelet" additionalName="15-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="1296000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22491" name="Improved Mithril Bracelet" additionalName="30-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="2592000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22492" name="Improved Mithril Bracelet" additionalName="90-day" type="Armor">
+		<set name="default_action" val="EQUIP"/>
+		<set name="icon" val="icon.etc_rbracelet_s_i03"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_tradable" val="false"/>
+		<set name="time" val="7776000"/>
+		<set name="weight" val="1"/>
+	</item>
+	<item id="22493" name="XP Rune I (Lv. 1-85) 100% Pack (3-hour)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22494" name="XP Rune I (Lv. 1-85) 100% Pack (5-hour)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22495" name="XP Rune I (Lv. 1-85) 100% Pack (7-day)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22496" name="XP Rune I (Lv. 1-85) 200% Pack (3-hour)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22497" name="XP Rune I (Lv. 1-85) 200% Pack (5-hour)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22498" name="XP Rune I (Lv. 1-85) 200% Pack (7-day)" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+	<item id="22499" name="My Teleport Book Pack" type="EtcItem">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00"/>
+		<set name="is_depositable" val="false"/>
+		<set name="is_dropable" val="false"/>
+		<set name="is_sellable" val="false"/>
+		<set name="is_stackable" val="true"/>
+		<set name="is_tradable" val="false"/>
+		<set name="weight" val="100"/>
+	</item>
+</list>
