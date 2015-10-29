@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS `announcements` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO announcements (`type`, `author`, `content`) VALUES 
-(0, 'Mobius', 'Server powered by http://prototype-project.ru/ project.');
+(0, 'Prototype', 'Server powered by http://prototype-project.ru/ project.');
