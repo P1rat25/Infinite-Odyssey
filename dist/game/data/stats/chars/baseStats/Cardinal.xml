@@ -58,12 +58,12 @@
 		<baseBreath>100</baseBreath>
 		<baseSafeFall>200</baseSafeFall>
 		<collisionMale>
-			<radius>7.5</radius>
-			<height>22.8</height>
+			<radius>9.0</radius>
+			<height>23</height>
 		</collisionMale>
 		<collisionFemale>
-			<radius>6.5</radius>
-			<height>22.5</height>
+			<radius>8.0</radius>
+			<height>23.5</height>
 		</collisionFemale>
 	</staticData>
 	<lvlUpgainData>
@@ -853,7 +853,7 @@
 		</level>
 		<level val="99">
 			<hp>4729.68</hp>
-			<mp>2355.0</mp>
+			<mp>2355</mp>
 			<cp>4256.712</cp>
 			<hpRegen>11.3</hpRegen>
 			<mpRegen>3.0</mpRegen>
@@ -872,31 +872,31 @@
 			<mp>2430.8</mp>
 			<cp>4386.33</cp>
 			<hpRegen>11.5</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="102">
 			<hp>4946.28</hp>
-			<mp>2469.0</mp>
-			<cp>4451.65</cp>
+			<mp>2469</mp>
+			<cp>4451.652</cp>
 			<hpRegen>11.6</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="103">
 			<hp>5019.24</hp>
 			<mp>2507.4</mp>
-			<cp>4517.32</cp>
+			<cp>4517.316</cp>
 			<hpRegen>11.7</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="104">
 			<hp>5092.58</hp>
-			<mp>2546.0</mp>
-			<cp>4583.32</cp>
+			<mp>2546</mp>
+			<cp>4583.322</cp>
 			<hpRegen>11.8</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="105">
@@ -904,23 +904,23 @@
 			<mp>2584.8</mp>
 			<cp>4649.67</cp>
 			<hpRegen>11.9</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="106">
 			<hp>5240.4</hp>
 			<mp>2623.8</mp>
 			<cp>4716.36</cp>
-			<hpRegen>12.0</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<hpRegen>12</hpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="107">
 			<hp>5314.88</hp>
-			<mp>2663.0</mp>
-			<cp>4783.39</cp>
+			<mp>2663</mp>
+			<cp>4783.392</cp>
 			<hpRegen>12.1</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 	</lvlUpgainData>

@@ -868,7 +868,7 @@
 			<mp>1650</mp>
 			<cp>1730.75</cp>
 			<hpRegen>11.5</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="102">
@@ -876,7 +876,7 @@
 			<mp>1672.92</mp>
 			<cp>1754.625</cp>
 			<hpRegen>11.6</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="103">
@@ -884,7 +884,7 @@
 			<mp>1695.96</mp>
 			<cp>1778.625</cp>
 			<hpRegen>11.7</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="104">
@@ -892,7 +892,7 @@
 			<mp>1719.12</mp>
 			<cp>1802.75</cp>
 			<hpRegen>11.8</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="105">
@@ -900,15 +900,15 @@
 			<mp>1742.4</mp>
 			<cp>1827</cp>
 			<hpRegen>11.9</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="106">
 			<hp>3702.75</hp>
 			<mp>1765.8</mp>
 			<cp>1851.375</cp>
-			<hpRegen>12.0</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<hpRegen>12</hpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="107">
@@ -916,7 +916,7 @@
 			<mp>1789.32</mp>
 			<cp>1875.875</cp>
 			<hpRegen>12.1</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 	</lvlUpgainData>

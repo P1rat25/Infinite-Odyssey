@@ -29,6 +29,7 @@ import java.util.logging.Logger;
 import com.l2jserver.Config;
 import com.l2jserver.commons.database.pool.impl.ConnectionFactory;
 import com.l2jserver.gameserver.data.sql.impl.ClanTable;
+import com.l2jserver.gameserver.data.xml.impl.ExperienceData;
 import com.l2jserver.gameserver.model.CharSelectInfoPackage;
 import com.l2jserver.gameserver.model.L2Clan;
 import com.l2jserver.gameserver.model.itemcontainer.Inventory;
@@ -108,7 +109,7 @@ public class CharSelectionInfo extends L2GameServerPacket
 			
 			writeQ(charInfoPackage.getSp());
 			writeQ(charInfoPackage.getExp());
-			writeF(charInfoPackage.getExpPercent());
+			writeF((float) (charInfoPackage.getExp() - ExperienceData.getInstance().getExpForLevel(charInfoPackage.getLevel())) / (ExperienceData.getInstance().getExpForLevel(charInfoPackage.getLevel() + 1) - ExperienceData.getInstance().getExpForLevel(charInfoPackage.getLevel()))); // High Five
 			writeD(charInfoPackage.getLevel());
 			
 			writeD(charInfoPackage.getReputation());
@@ -149,7 +150,7 @@ public class CharSelectionInfo extends L2GameServerPacket
 			writeF(charInfoPackage.getMaxHp());
 			writeF(charInfoPackage.getMaxMp());
 			
-			writeD(charInfoPackage.getDeleteTime());
+			writeD(charInfoPackage.getDeleteTimer() > 0 ? (int) ((charInfoPackage.getDeleteTimer() - System.currentTimeMillis()) / 1000) : 0);
 			writeD(charInfoPackage.getClassId());
 			writeD(charId == charInfoPackage.getObjectId() ? 0x01 : 0x00);
 			writeC(charInfoPackage.getWeaponEnchantEffect());
@@ -230,7 +231,7 @@ public class CharSelectionInfo extends L2GameServerPacket
 		String name = chardata.getString("char_name");
 		
 		// See if the char must be deleted
-		int deletetime = chardata.getInt("deletetime");
+		long deletetime = chardata.getLong("deletetime");
 		if (deletetime > 0)
 		{
 			if (System.currentTimeMillis() > deletetime)

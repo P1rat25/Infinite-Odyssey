@@ -58,12 +58,12 @@
 		<baseBreath>100</baseBreath>
 		<baseSafeFall>200</baseSafeFall>
 		<collisionMale>
-			<radius>7.5</radius>
-			<height>22.8</height>
+			<radius>9.0</radius>
+			<height>23</height>
 		</collisionMale>
 		<collisionFemale>
-			<radius>6.5</radius>
-			<height>22.5</height>
+			<radius>8.0</radius>
+			<height>23.5</height>
 		</collisionFemale>
 	</staticData>
 	<lvlUpgainData>
@@ -853,7 +853,7 @@
 		</level>
 		<level val="99">
 			<hp>5011.11</hp>
-			<mp>2355.0</mp>
+			<mp>2355</mp>
 			<cp>2505.555</cp>
 			<hpRegen>11.3</hpRegen>
 			<mpRegen>3.0</mpRegen>
@@ -872,15 +872,15 @@
 			<mp>2430.8</mp>
 			<cp>2583.25</cp>
 			<hpRegen>11.5</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="102">
 			<hp>5244.81</hp>
-			<mp>2469.0</mp>
+			<mp>2469</mp>
 			<cp>2622.405</cp>
 			<hpRegen>11.6</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="103">
@@ -888,15 +888,15 @@
 			<mp>2507.4</mp>
 			<cp>2661.765</cp>
 			<hpRegen>11.7</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="104">
 			<hp>5402.66</hp>
-			<mp>2546.0</mp>
+			<mp>2546</mp>
 			<cp>2701.33</cp>
 			<hpRegen>11.8</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="105">
@@ -904,15 +904,15 @@
 			<mp>2584.8</mp>
 			<cp>2741.1</cp>
 			<hpRegen>11.9</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="106">
 			<hp>5562.15</hp>
 			<mp>2623.8</mp>
 			<cp>2781.075</cp>
-			<hpRegen>12.0</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<hpRegen>12</hpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 		<level val="107">
@@ -920,7 +920,7 @@
 			<mp>2663</mp>
 			<cp>2821.255</cp>
 			<hpRegen>12.1</hpRegen>
-			<mpRegen>3.0</mpRegen>
+			<mpRegen>3</mpRegen>
 			<cpRegen>8.5</cpRegen>
 		</level>
 	</lvlUpgainData>

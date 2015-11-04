@@ -18,7 +18,6 @@
  */
 package com.l2jserver.gameserver.model;
 
-import com.l2jserver.gameserver.data.xml.impl.ExperienceData;
 import com.l2jserver.gameserver.model.entity.Hero;
 import com.l2jserver.gameserver.model.itemcontainer.Inventory;
 import com.l2jserver.gameserver.model.itemcontainer.PcInventory;
@@ -429,11 +428,6 @@ public class CharSelectInfoPackage
 		return _vars.getBoolean("hairAccessoryEnabled", true);
 	}
 	
-	public float getExpPercent()
-	{
-		return (float) (getExp() - ExperienceData.getInstance().getExpForLevel(getLevel())) / (ExperienceData.getInstance().getExpForLevel(getLevel() + 1) - ExperienceData.getInstance().getExpForLevel(getLevel()));
-	}
-	
 	public int getTransformationId()
 	{
 		int weaponId = getPaperdollItemId(Inventory.PAPERDOLL_RHAND);
@@ -450,14 +444,12 @@ public class CharSelectInfoPackage
 	
 	public int getVitalityPercent()
 	{
-		// FIXME: To implement.
-		return 200;
+		return 200; // TODO: Implement.
 	}
 	
 	public int getVitalityItemCount()
 	{
-		// FIXME: To implement.
-		return 5;
+		return 5; // TODO: Implement.
 	}
 	
 	public boolean isAvailable()
@@ -465,14 +457,8 @@ public class CharSelectInfoPackage
 		return getAccessLevel() > -100;
 	}
 	
-	public int getDeleteTime()
-	{
-		return getAccessLevel() > -100 ? (int) getDeleteTimer() : -1;
-	}
-	
 	public boolean isHero()
 	{
-		// FIXME: To implement.
 		return Hero.getInstance().isHero(getObjectId());
 	}
 	
@@ -484,10 +470,5 @@ public class CharSelectInfoPackage
 	public int get2ndAugmentationId()
 	{
 		return getAugmentationId() >> 16;
-	}
-	
-	public boolean showHairAccessory()
-	{
-		return true;
 	}
 }

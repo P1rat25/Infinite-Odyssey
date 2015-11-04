@@ -2819,7 +2819,7 @@
 			</death>
 		</drop_lists>
 	</npc>
-	<npc id="25878" level="85" type="L2Monster" name="Arbitor of darkness" title="Raid Fighter">
+	<npc id="25878" level="85" type="L2Monster" name="Arbitor of Darkness" title="Raid Fighter">
 		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
 		<race>UNDEAD</race>
 		<acquire exp="253903" sp="485" />
@@ -2847,7 +2847,7 @@
 			<height normal="38" />
 		</collision>
 	</npc>
-	<npc id="25879" level="88" type="L2RaidBoss" name="Queen of darkness" title="Raid Boss">
+	<npc id="25879" level="88" type="L2RaidBoss" name="Queen of Darkness" title="Raid Boss">
 		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
 		<race>UNDEAD</race>
 		<acquire exp="159805184" sp="449865" />

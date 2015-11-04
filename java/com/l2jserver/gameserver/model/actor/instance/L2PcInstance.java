@@ -2673,6 +2673,7 @@ public final class L2PcInstance extends L2Playable
 				_log.warning("Skipping null auto-get skill for player: " + toString());
 			}
 		}
+		
 		// Fix for R99 expertise bug.
 		if (getLevel() >= 99)
 		{
@@ -3106,7 +3107,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			return false;
 		}
@@ -3440,7 +3441,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			return false;
 		}
@@ -3500,7 +3501,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			
 			return false;
@@ -3525,7 +3526,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			
 			return false;
@@ -3557,7 +3558,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			
 			return false;
@@ -3752,7 +3753,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			
 			return false;
@@ -3845,7 +3846,7 @@ public final class L2PcInstance extends L2Playable
 		{
 			if (sendMessage)
 			{
-				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 			}
 			
 			return null;
@@ -6597,7 +6598,7 @@ public final class L2PcInstance extends L2Playable
 			{
 				// You can't mount, dismount, break and drop items while fishing
 				sendPacket(ActionFailed.STATIC_PACKET);
-				sendPacket(SystemMessageId.YOU_CANNOT_DO_THAT_WHILE_FISHING2);
+				sendPacket(SystemMessageId.YOU_CANNOT_DO_THAT_WHILE_FISHING);
 				return false;
 			}
 			else if (isTransformed() || isCursedWeaponEquipped())
@@ -12894,7 +12895,7 @@ public final class L2PcInstance extends L2Playable
 		}
 		else
 		{
-			sm = SystemMessage.getSystemMessage(SystemMessageId.C1_HAS_INFLICTED_S3_DAMAGE_ON_C2_S4);
+			sm = SystemMessage.getSystemMessage(SystemMessageId.C1_HAS_INFLICTED_S3_DAMAGE_ON_C2);
 			sm.addPcName(this);
 			sm.addCharName(target);
 			sm.addInt(damage);

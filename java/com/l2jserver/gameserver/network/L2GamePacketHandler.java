@@ -1668,6 +1668,57 @@ public final class L2GamePacketHandler implements IPacketHandler<L2GameClient>, 
 							case 0x104:
 								msg = new RequestExAutoFish();
 								break;
+							case 0x105:
+								// msg = new RequestVipAttendanceItemList();
+								break;
+							case 0x106:
+								// msg = new RequestVipAttendanceCheck();
+								break;
+							case 0x107:
+								// msg = new RequestItemEnsoul();
+								break;
+							case 0x108:
+								// msg = new RequestVipProductList();
+								break;
+							case 0x109:
+								// msg = new RequestVipLuckyGameInfo();
+								break;
+							case 0x10A:
+								// msg = new RequestVipLuckyGameItemList();
+								break;
+							case 0x10B:
+								// msg = new RequestVipLuckyGameBonus();
+								break;
+							case 0x10C:
+								// msg = new ExRequestVipInfo();
+								break;
+							case 0x10D:
+								// msg = new RequestCaptchaAnswer();
+								break;
+							case 0x10E:
+								// msg = new RequestRefreshCaptchaImage();
+								break;
+							case 0x10F:
+								msg = new RequestTodoList();
+								break;
+							case 0x110:
+								// msg = new RequestTodoListHTML();
+								break;
+							case 0x111:
+								// msg = new RequestOneDayRewardReceive();
+								break;
+							case 0x112:
+								// msg = new RequestPledgeBonusOpen();
+								break;
+							case 0x113:
+								// msg = new RequestPledgeBonusRewardList();
+								break;
+							case 0x114:
+								// msg = new RequestPledgeBonusReward();
+								break;
+							case 0x115:
+								// msg = new RequestSSOAuthnToken();
+								break;
 							default:
 								printDebugDoubleOpcode(opcode, id2, buf, state, client);
 								break;

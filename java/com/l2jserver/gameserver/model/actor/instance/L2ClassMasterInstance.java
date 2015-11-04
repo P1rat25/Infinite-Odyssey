@@ -392,7 +392,7 @@ public final class L2ClassMasterInstance extends L2MerchantInstance
 		{
 			if (player.getInventory().getInventoryItemCount(holder.getId(), -1) < holder.getCount())
 			{
-				player.sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+				player.sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 				return false;
 			}
 		}
@@ -494,6 +494,11 @@ public final class L2ClassMasterInstance extends L2MerchantInstance
 		}
 		
 		if (oldCID.equals(newCID.getParent()))
+		{
+			return true;
+		}
+		
+		if (oldCID.equals(ClassId.FEMALE_SOUL_HOUND) && newCID.equals(ClassId.FEOH_SOUL_HOUND))
 		{
 			return true;
 		}

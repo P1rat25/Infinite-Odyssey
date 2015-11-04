@@ -228,7 +228,7 @@ public enum ClassId implements IIdentifiable
 	FEOH_SOULTAKER(167, true, Race.HUMAN, SOULTAKER),
 	FEOH_MYSTIC_MUSE(168, true, Race.ELF, MYSTIC_MUSE),
 	FEOH_STORM_SCREAMER(169, true, Race.DARK_ELF, STORM_SCREAMER),
-	FEOH_SOUL_HOUND_MALE(170, false, Race.KAMAEL, MALE_SOUL_HOUND),
+	FEOH_SOUL_HOUND(170, false, Race.KAMAEL, MALE_SOUL_HOUND),
 	ISS_HIEROPHANT(171, true, Race.HUMAN, HIEROPHANT),
 	ISS_SWORD_MUSE(172, false, Race.ELF, SWORD_MUSE),
 	ISS_SPECTRAL_DANCER(173, false, Race.DARK_ELF, SPECTRAL_DANCER),
@@ -251,8 +251,7 @@ public enum ClassId implements IIdentifiable
 	STRATOMANCER(187, true, Race.ERTHEIA, CLOUD_BREAKER),
 	
 	EVISCERATOR(188, false, Race.ERTHEIA, RIPPER),
-	SAYHA_SEER(189, true, Race.ERTHEIA, STRATOMANCER),
-	FEOH_SOUL_HOUND_FEMALE(190, false, Race.KAMAEL, FEMALE_SOUL_HOUND);
+	SAYHA_SEER(189, true, Race.ERTHEIA, STRATOMANCER);
 	
 	/** The Identifier of the Class */
 	private final int _id;
@@ -366,7 +365,6 @@ public enum ClassId implements IIdentifiable
 		}
 		
 		return _parent.childOf(cid);
-		
 	}
 	
 	/**

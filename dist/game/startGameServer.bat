@@ -1,5 +1,5 @@
 @echo off
-title Prototype-Project - Game Server Console
+title Mobius - Game Server Console
 
 :start
 echo Starting Game Server.

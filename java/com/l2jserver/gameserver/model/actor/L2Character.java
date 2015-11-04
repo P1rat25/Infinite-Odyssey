@@ -1928,7 +1928,7 @@ public abstract class L2Character extends L2Object implements ISkillsHolder, IDe
 			{
 				if (!destroyItemByItemId("Consume", skill.getItemConsumeId(), skill.getItemConsumeCount(), null, true))
 				{
-					getActingPlayer().sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT2);
+					getActingPlayer().sendPacket(SystemMessageId.INCORRECT_ITEM_COUNT);
 					abortCast();
 					return;
 				}

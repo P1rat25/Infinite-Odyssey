@@ -113,6 +113,8 @@ public final class Config
 	public static final String CH_SIEGE_FILE = "./config/ConquerableHallSiege.ini";
 	public static final String GEODATA_FILE = "./config/GeoData.ini";
 	
+	public static final boolean SERVER_CLASSIC_SUPPORT = false;
+	
 	// --------------------------------------------------
 	// L2J Variable Definitions
 	// --------------------------------------------------
@@ -174,6 +176,7 @@ public final class Config
 	public static int MAX_EVASION;
 	public static int MIN_ABNORMAL_STATE_SUCCESS_RATE;
 	public static int MAX_ABNORMAL_STATE_SUCCESS_RATE;
+	public static byte PLAYER_MAXIMUM_LEVEL;
 	public static byte MAX_SUBCLASS;
 	public static byte BASE_SUBCLASS_LEVEL;
 	public static byte BASE_DUALCLASS_LEVEL;
@@ -991,7 +994,6 @@ public final class Config
 	public static int SERVER_LIST_TYPE;
 	public static int SERVER_LIST_AGE;
 	public static boolean SERVER_LIST_BRACKET;
-	public static boolean SERVER_CLASSIC_SUPPORT = false;
 	public static boolean LOGIN_SERVER_SCHEDULE_RESTART;
 	public static long LOGIN_SERVER_SCHEDULE_RESTART_TIME;
 	
@@ -1232,7 +1234,7 @@ public final class Config
 			
 			try
 			{
-				DATAPACK_ROOT = new File(serverSettings.getString((SERVER_CLASSIC_SUPPORT ? "ClassicDatapackRoot" : "DatapackRoot"), ".").replaceAll("\\\\", "/")).getCanonicalFile();
+				DATAPACK_ROOT = new File(serverSettings.getString("DatapackRoot", ".").replaceAll("\\\\", "/")).getCanonicalFile();
 			}
 			catch (IOException e)
 			{
@@ -1526,6 +1528,8 @@ public final class Config
 			MAX_EVASION = character.getInt("MaxEvasion", 250);
 			MIN_ABNORMAL_STATE_SUCCESS_RATE = character.getInt("MinAbnormalStateSuccessRate", 10);
 			MAX_ABNORMAL_STATE_SUCCESS_RATE = character.getInt("MaxAbnormalStateSuccessRate", 90);
+			PLAYER_MAXIMUM_LEVEL = character.getByte("MaximumPlayerLevel", (byte) 99);
+			PLAYER_MAXIMUM_LEVEL++; // Player maximum level calculations always require +1.
 			MAX_SUBCLASS = (byte) Math.min(3, character.getByte("MaxSubclass", (byte) 3));
 			BASE_SUBCLASS_LEVEL = character.getByte("BaseSubclassLevel", (byte) 40);
 			BASE_DUALCLASS_LEVEL = character.getByte("BaseDualclassLevel", (byte) 85);
@@ -3895,7 +3899,6 @@ public final class Config
 					break;
 				case "classic":
 					serverType |= 0x400;
-					SERVER_CLASSIC_SUPPORT = true;
 					break;
 			}
 		}

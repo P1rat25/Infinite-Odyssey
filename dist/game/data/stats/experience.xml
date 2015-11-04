@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<table maxLevel="107" maxPetLevel="100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/experience.xsd">
+<table maxLevel="107" maxPetLevel="107" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/experience.xsd">
 	<experience level="1" tolevel="0" />
 	<experience level="2" tolevel="68" />
 	<experience level="3" tolevel="363" />
@@ -100,12 +100,12 @@
 	<experience level="98" tolevel="1016243369039" />
 	<experience level="99" tolevel="1956916677389" />
 	<experience level="100" tolevel="6178380725001" />
-	<experience level="101" tolevel="8473062301454" />
+	<experience level="101" tolevel="16946124602908" />
 	<experience level="102" tolevel="43523955372407" />
 	<experience level="103" tolevel="84422086452639" />
 	<experience level="104" tolevel="188752303396110" />
 	<experience level="105" tolevel="358035537321346" />
-	<experience level="106" tolevel="3514822095225670" />
-	<experience level="107" tolevel="7302965964710870" />
-	<experience level="108" tolevel="12302965964710870" />
+	<experience level="106" tolevel="1000000000000000" />
+	<experience level="107" tolevel="2000000000000000" />
+	<experience level="108" tolevel="4000000000000000" />
 </table>

@@ -88,7 +88,6 @@ public class GMViewCharacterInfo extends L2GameServerPacket
 		
 		for (int slot : Inventory.PAPERDOLL_ORDER_ALL)
 		{
-			writeD(_activeChar.getInventory().getPaperdollAugmentationId(slot));
 			writeD(_activeChar.getInventory().getPaperdoll1stAugmentationId(slot));
 			writeD(_activeChar.getInventory().getPaperdoll2ndAugmentationId(slot));
 		}

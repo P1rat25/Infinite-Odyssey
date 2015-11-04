@@ -1,5 +1,5 @@
 @echo off
-title Prototype-Project - Login Server Console
+title Mobius - Login Server Console
 
 :start
 echo Starting Login Server.
