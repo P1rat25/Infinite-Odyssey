@@ -85,7 +85,7 @@
 			<manifest>
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
-				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
+				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
 				<attribute name="Main-Class" value="com.l2jserver.loginserver.L2LoginServer" />
 			</manifest>
@@ -100,7 +100,7 @@
 			<manifest>
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
-				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
+				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
 				<attribute name="Main-Class" value="com.l2jserver.gameserver.GameServer" />
 			</manifest>
@@ -117,7 +117,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
+				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
 				<attribute name="Main-Class" value="com.l2jserver.tools.dbinstaller.LauncherGS" />
 			</manifest>
 		</jar>
@@ -133,7 +133,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
+				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
 				<attribute name="Main-Class" value="com.l2jserver.tools.dbinstaller.LauncherLS" />
 			</manifest>
 		</jar>
