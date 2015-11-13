@@ -21,7 +21,6 @@ package com.l2jserver.gameserver.network.serverpackets;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.l2jserver.Config;
 import com.l2jserver.gameserver.datatables.SkillData;
 import com.l2jserver.gameserver.model.actor.L2Character;
 import com.l2jserver.gameserver.model.skills.BuffInfo;
@@ -56,10 +55,7 @@ public class PartySpelled extends L2GameServerPacket
 				if (info.getSkill().getDisplayLevel() < 100)
 				{
 					writeH(info.getSkill().getDisplayLevel());
-					if (!Config.SERVER_CLASSIC_SUPPORT)
-					{
-						writeH(0x00);
-					}
+					writeH(0x00);
 				}
 				else
 				{

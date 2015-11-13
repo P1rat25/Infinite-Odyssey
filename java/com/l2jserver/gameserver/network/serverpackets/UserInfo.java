@@ -152,7 +152,7 @@ public class UserInfo extends AbstractMaskPacket<UserInfoType>
 			writeC(_activeChar.isGM() ? 0x01 : 0x00);
 			writeC(_activeChar.getRace().ordinal());
 			writeC(_activeChar.getAppearance().getSex() ? 0x01 : 0x00);
-			writeD(_activeChar.getBaseClass());
+			writeD(_activeChar.getInitialClassId());
 			writeD(_activeChar.getClassId().getId());
 			writeC(_activeChar.getLevel());
 		}
@@ -210,7 +210,7 @@ public class UserInfo extends AbstractMaskPacket<UserInfoType>
 			writeH(6);
 			writeC(_activeChar.getMountType().ordinal());
 			writeC(_activeChar.getPrivateStoreType().getId());
-			writeC(_activeChar.hasDwarvenCraft() ? 1 : 0);
+			writeC(_activeChar.hasDwarvenCraft() || (_activeChar.getSkillLevel(248) > 0) ? 1 : 0);
 			writeC(_activeChar.getAbilityPointsUsed());
 		}
 		

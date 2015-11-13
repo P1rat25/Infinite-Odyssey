@@ -429,6 +429,7 @@ public final class L2PcInstance extends L2Playable
 	private long _uptime;
 	
 	private final ReentrantLock _subclassLock = new ReentrantLock();
+	protected int _initialClass;
 	protected int _baseClass;
 	protected int _activeClass;
 	protected int _classIndex = 0;
@@ -954,6 +955,8 @@ public final class L2PcInstance extends L2Playable
 		player.setName(name);
 		// Set Character's create time
 		player.setCreateDate(Calendar.getInstance());
+		// Set the initial class ID to that of the actual class ID.
+		player.setInitialClassId(player.getClassId().getId());
 		// Set the base class ID to that of the actual class ID.
 		player.setBaseClass(player.getClassId());
 		// Give 20 recommendations
@@ -1234,14 +1237,19 @@ public final class L2PcInstance extends L2Playable
 		return super.getLevelMod();
 	}
 	
-	public void setBaseClass(int baseClass)
+	public void setInitialClassId(int classId)
+	{
+		_initialClass = classId;
+	}
+	
+	public void setBaseClassId(int baseClass)
 	{
 		_baseClass = baseClass;
 	}
 	
 	public void setBaseClass(ClassId classId)
 	{
-		_baseClass = classId.ordinal();
+		_baseClass = classId.getId();
 	}
 	
 	public boolean isInStoreMode()
@@ -2619,7 +2627,7 @@ public final class L2PcInstance extends L2Playable
 	public int giveAvailableSkills(boolean includedByFs, boolean includeAutoGet)
 	{
 		int skillCounter = 0;
-		// Get available skills
+		// Get available skills.
 		Collection<Skill> skills = SkillTreesData.getInstance().getAllAvailableSkills(this, getClassId(), includedByFs, includeAutoGet);
 		List<Skill> skillsForStore = new ArrayList<>();
 		
@@ -2635,7 +2643,7 @@ public final class L2PcInstance extends L2Playable
 				skillCounter++;
 			}
 			
-			// fix when learning toggle skills
+			// Fix when learning toggle skills.
 			if (sk.isToggle() && isAffectedBySkill(sk.getId()))
 			{
 				stopSkillEffects(true, sk.getId());
@@ -2645,6 +2653,24 @@ public final class L2PcInstance extends L2Playable
 			skillsForStore.add(sk);
 		}
 		storeSkills(skillsForStore, -1);
+		
+		// Remove skills if required.
+		for (Skill sk : getSkills().values())
+		{
+			final L2SkillLearn s = SkillTreesData.getInstance().getSkillLearn(sk.getId(), 1, this);
+			if ((s != null) && !s.getRemoveSkills().isEmpty())
+			{
+				s.getRemoveSkills().forEach(skillId ->
+				{
+					final Skill skillToRemove = getKnownSkill(skillId);
+					if (skillToRemove != null)
+					{
+						removeSkill(skillToRemove);
+					}
+				});
+			}
+		}
+		
 		if (Config.AUTO_LEARN_SKILLS && (skillCounter > 0))
 		{
 			sendMessage("You have learned " + skillCounter + " new skills.");
@@ -2657,7 +2683,7 @@ public final class L2PcInstance extends L2Playable
 	 */
 	public void giveAvailableAutoGetSkills()
 	{
-		// Get available skills
+		// Get available skills.
 		final List<L2SkillLearn> autoGetSkills = SkillTreesData.getInstance().getAvailableAutoGetSkills(this);
 		final SkillData st = SkillData.getInstance();
 		Skill skill;
@@ -7002,7 +7028,7 @@ public final class L2PcInstance extends L2Playable
 			ps.setInt(30, isOnlineInt());
 			ps.setInt(31, getClanPrivileges().getBitmask());
 			ps.setInt(32, getWantsPeace());
-			ps.setInt(33, getBaseClass());
+			ps.setInt(33, getBaseClassId());
 			ps.setInt(34, isNoble() ? 1 : 0);
 			ps.setLong(35, 0);
 			ps.setTimestamp(36, new Timestamp(getCreateDate().getTimeInMillis()));
@@ -7107,18 +7133,18 @@ public final class L2PcInstance extends L2Playable
 					player._classIndex = 0;
 					try
 					{
-						player.setBaseClass(rset.getInt("base_class"));
+						player.setBaseClassId(rset.getInt("base_class"));
 					}
 					catch (Exception e)
 					{
-						// TODO: Should this be logged?
-						player.setBaseClass(activeClassId);
+						player.setBaseClassId(activeClassId);
 					}
+					player.setInitialClassId(ClassId.getInitialClassId(player));
 					
 					// Restore Subclass Data (cannot be done earlier in function)
 					if (restoreSubClassData(player))
 					{
-						if (activeClassId != player.getBaseClass())
+						if (activeClassId != player.getBaseClassId())
 						{
 							for (SubClass subClass : player.getSubClasses().values())
 							{
@@ -7129,12 +7155,12 @@ public final class L2PcInstance extends L2Playable
 							}
 						}
 					}
-					if ((player.getClassIndex() == 0) && (activeClassId != player.getBaseClass()))
+					if ((player.getClassIndex() == 0) && (activeClassId != player.getBaseClassId()))
 					{
 						// Subclass in use but doesn't exist in DB -
 						// a possible restart-while-modifysubclass cheat has been attempted.
 						// Switching to use base class
-						player.setClassId(player.getBaseClass());
+						player.setClassId(player.getBaseClassId());
 						_log.warning("Player " + player.getName() + " reverted to base class. Possibly has tried a relogin exploit while subclassing.");
 					}
 					else
@@ -7633,7 +7659,7 @@ public final class L2PcInstance extends L2Playable
 			ps.setInt(31, isOnlineInt());
 			ps.setInt(32, getClanPrivileges().getBitmask());
 			ps.setInt(33, getWantsPeace());
-			ps.setInt(34, getBaseClass());
+			ps.setInt(34, getBaseClassId());
 			
 			long totalOnlineTime = _onlineTime;
 			if (_onlineBeginTime > 0)
@@ -9639,8 +9665,32 @@ public final class L2PcInstance extends L2Playable
 	{
 		if (_activeSoulShots.contains(itemId))
 		{
-			removeAutoSoulShot(itemId);
-			sendPacket(new ExAutoSoulShot(itemId, 0));
+			final L2ItemInstance item = getInventory().getItemByItemId(itemId);
+			
+			switch (item.getEtcItem().getDefaultAction())
+			{
+				case SOULSHOT:
+				case FISHINGSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 0));
+					break;
+				}
+				case SPIRITSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 1));
+					break;
+				}
+				case SUMMON_SOULSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 2));
+					break;
+				}
+				case SUMMON_SPIRITSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 3));
+					break;
+				}
+			}
 			
 			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.THE_AUTOMATIC_USE_OF_S1_HAS_BEEN_DEACTIVATED);
 			sm.addItemName(itemId);
@@ -9657,7 +9707,33 @@ public final class L2PcInstance extends L2Playable
 	{
 		for (int itemId : _activeSoulShots)
 		{
-			sendPacket(new ExAutoSoulShot(itemId, 0));
+			final L2ItemInstance item = getInventory().getItemByItemId(itemId);
+			
+			switch (item.getEtcItem().getDefaultAction())
+			{
+				case SOULSHOT:
+				case FISHINGSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 0));
+					break;
+				}
+				case SPIRITSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 1));
+					break;
+				}
+				case SUMMON_SOULSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 2));
+					break;
+				}
+				case SUMMON_SPIRITSHOT:
+				{
+					sendPacket(new ExAutoSoulShot(itemId, 0, 3));
+					break;
+				}
+			}
+			
 			SystemMessage sm = SystemMessage.getSystemMessage(SystemMessageId.THE_AUTOMATIC_USE_OF_S1_HAS_BEEN_DEACTIVATED);
 			sm.addItemName(itemId);
 			sendPacket(sm);
@@ -10555,12 +10631,27 @@ public final class L2PcInstance extends L2Playable
 		return getSubClasses().size();
 	}
 	
-	public int getBaseClass()
+	public int getInitialClassId()
+	{
+		return _initialClass;
+	}
+	
+	public ClassId getInitialClass()
+	{
+		return ClassId.getClassId(_initialClass);
+	}
+	
+	public int getBaseClassId()
 	{
 		return _baseClass;
 	}
 	
-	public int getActiveClass()
+	public ClassId getBaseClass()
+	{
+		return ClassId.getClassId(_baseClass);
+	}
+	
+	public int getActiveClassId()
 	{
 		return _activeClass;
 	}
@@ -10645,7 +10736,7 @@ public final class L2PcInstance extends L2Playable
 			
 			if (classIndex == 0)
 			{
-				setClassTemplate(getBaseClass());
+				setClassTemplate(getBaseClassId());
 			}
 			else
 			{
@@ -14870,7 +14961,7 @@ public final class L2PcInstance extends L2Playable
 	
 	public boolean isAwaken()
 	{
-		if (((getActiveClass() >= 139) && (getActiveClass() <= 181)) || (getActiveClass() >= 188))
+		if (((getActiveClassId() >= 139) && (getActiveClassId() <= 181)) || (getActiveClassId() >= 188))
 		{
 			return true;
 		}
@@ -15280,7 +15371,7 @@ public final class L2PcInstance extends L2Playable
 	 */
 	public int getVitalityPoints()
 	{
-		if (getClassId().getId() == getBaseClass())
+		if (getClassId().getId() == getBaseClassId())
 		{
 			return _vitalityPoints;
 		}
@@ -15293,7 +15384,7 @@ public final class L2PcInstance extends L2Playable
 	
 	public void setVitalityPoints(int points)
 	{
-		if (getClassId().getId() == getBaseClass())
+		if (getClassId().getId() == getBaseClassId())
 		{
 			_vitalityPoints = points;
 			return;

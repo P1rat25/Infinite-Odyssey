@@ -115,7 +115,7 @@ public class CharInfo extends L2GameServerPacket
 		writeS(_activeChar.getAppearance().getVisibleName()); // Confirmed
 		writeH(_activeChar.getRace().ordinal()); // Confirmed
 		writeC(_activeChar.getAppearance().getSex() ? 0x01 : 0x00); // Confirmed
-		writeD(_activeChar.getBaseClass()); // Confirmed
+		writeD(_activeChar.getBaseClassId()); // Confirmed
 		
 		for (int slot : Inventory.PAPERDOLL_ORDER)
 		{

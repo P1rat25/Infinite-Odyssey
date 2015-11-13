@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
-<project name="L2J_Prototype" default="cleanup" basedir=".">
+<project name="Prototype_L2" default="cleanup" basedir=".">
 	<description>
 		This script will build the L2J Server.
 
@@ -85,7 +85,7 @@
 			<manifest>
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
-				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
 				<attribute name="Main-Class" value="com.l2jserver.loginserver.L2LoginServer" />
 			</manifest>
@@ -100,7 +100,7 @@
 			<manifest>
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
-				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
 				<attribute name="Main-Class" value="com.l2jserver.gameserver.GameServer" />
 			</manifest>
@@ -117,7 +117,7 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
 				<attribute name="Main-Class" value="com.l2jserver.tools.dbinstaller.LauncherGS" />
 			</manifest>
 		</jar>
@@ -133,18 +133,18 @@
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Built-Date" value="${time.stamp}" />
 				<attribute name="Class-Path" value="${manifest.libs}" />
-				<attribute name="Implementation-URL" value="http://prototype-project.ru/" />
+				<attribute name="Implementation-URL" value="http://www.l2jmobius.com/" />
 				<attribute name="Main-Class" value="com.l2jserver.tools.dbinstaller.LauncherLS" />
 			</manifest>
 		</jar>
 	</target>
 
 	<target name="adding-core" depends="jar" description="Adding the compiled jars to the Zip file.">
-		<zip destfile="${build}/L2J_Prototype.zip" basedir="${build.dist}" level="9" />
+		<zip destfile="${build}/L2J_Mobius.zip" basedir="${build.dist}" level="9" />
 	</target>
 	
 	<target name="adding-datapack" depends="adding-core" description="Updating the Zip file with datapack content.">
-		<zip destfile="${build}/L2J_Prototype.zip" basedir="${datapack}" update="true" level="9" />
+		<zip destfile="${build}/L2J_Mobius.zip" basedir="${datapack}" update="true" level="9" />
 	</target>
 	
 	<target name="cleanup" depends="adding-datapack" description="Cleaning the build folder.">

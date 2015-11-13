@@ -1694,222 +1694,6 @@
 			</death>
 		</drop_lists>
 	</npc>
-	<npc id="25847" level="88" type="L2Npc" name="Calamity Guardian" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14467" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25848" level="88" type="L2Npc" name="Calamity Warrior" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14468" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25849" level="88" type="L2Npc" name="Calamity Attacker" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="14469" level="1" />
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25850" level="88" type="L2Npc" name="Calamity Sniper" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="14470" level="1" />
-			<skill id="5465" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25851" level="88" type="L2Npc" name="Calamity Magician" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14471" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25852" level="88" type="L2Npc" name="Calamity Enchanter" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14459" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25853" level="88" type="L2Npc" name="Calamity Summoner" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14472" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
-	<npc id="25854" level="88" type="L2Npc" name="Calamity Healer" title="Giant's Apostle">
-		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
-		<race>HUMANOID</race>
-		<stats> <!-- str="79" int="74" dex="42" wit="65" con="75" men="72" -->
-			<vitals hp="484226" hpRegen="7.5" mp="484226" mpRegen="2.7" />
-			<attack physical="49500" magical="33000" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="1980" magical="1920" />
-			<attribute>
-				<defence fire="160" water="160" wind="160" earth="160" holy="160" dark="160" />
-			</attribute>
-			<speed>
-				<walk ground="1" />
-				<run ground="1" />
-			</speed>
-			<hit_time>333</hit_time>
-		</stats>
-		<status attackable="false" />
-		<skill_list>
-			<skill id="4416" level="6" />
-			<skill id="5465" level="1" />
-			<skill id="14473" level="1" />
-		</skill_list>
-		<collision>
-			<radius normal="50" />
-			<height normal="60.5" />
-		</collision>
-	</npc>
 	<npc id="25855" level="96" type="L2Npc" name="Maliss" title="Grand Priest of Blood">
 		<!-- Source http://l2i-god.gaikotsu.ru/ (Lindvior) -->
 		<race>HUMANOID</race>
@@ -2298,11 +2082,11 @@
 		</collision>
 	</npc>
 	<npc id="25866" level="94" type="L2RaidBoss" name="Apherus">
-		<!-- Source: http://l2on.net/en/?c=npc&id=25866 -->
+		<!-- Source: www.l2wiki.com (2015-04-08) -->
 		<race>PLANT</race>
 		<acquire exp="198916032" sp="47739" raidPoints="1"/>
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="8223068" hpRegen="7.5" mp="822307" mpRegen="2.7" />
+			<vitals hp="8223069" hpRegen="10.5" mp="22800" mpRegen="3.6" />
 			<attack physical="68250" magical="48750" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
 			<defence physical="2800" magical="2700" />
 			<attribute>
@@ -2318,10 +2102,10 @@
 		<status undying="false" noSleepMode="true" attackable="true" />
 		<skill_list>
 			<skill id="14087" level="1" />
-			<skill id="5465" level="1" />
-			<skill id="4416" level="5" />
-			<skill id="4494" level="1" />
-			<skill id="14723" level="1" />
+			<skill id="4494" level="1" /> <!-- Raid Boss -->
+			<skill id="14723" level="1" /> <!-- Raid Boss (Lv. 94) -->
+			<skill id="4416" level="5" /> <!-- Plants -->
+			<skill id="5465" level="1" /> <!-- Earth Attack -->
 		</skill_list>
 		<ai type="BALANCED" aggroRange="600" clanHelpRange="300" isAggressive="false" />
 		<collision>
@@ -2330,11 +2114,12 @@
 		</collision>
 		<drop_lists>
 			<death>
+				<item id="17347" min="1" max="1" chance="5.315" /> <!-- Twilight Leather Gloves -->
+				<item id="17352" min="1" max="1" chance="5.297" /> <!-- Twilight Gloves -->
 				<item id="17330" min="1" max="1" chance="0.3" /> <!-- Apocalypse Thrower -->
-				<item id="17347" min="1" max="1" chance="5.323" /> <!-- Twilight Leather Gloves Light Armor -->
-				<item id="17526" min="1" max="1" chance="5.601" /> <!-- Scroll: Enchant Weapon (R-grade) -->
 				<item id="17334" min="1" max="1" chance="0.3" /> <!-- Apocalypse Retributer -->
-				<item id="17352" min="1" max="1" chance="5.387" /> <!-- Twilight Gloves Robe -->
+				<item id="17526" min="1" max="1" chance="5.537" /> <!-- Scroll: Enchant Weapon (R-grade) -->
+				<item id="39629" min="1" max="1" chance="0.01" /> <!-- Fortune Bag - Stage 1 --> <!-- Lucky Drop -->
 			</death>
 		</drop_lists>
 	</npc>

@@ -22,7 +22,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.l2jserver.Config;
 import com.l2jserver.gameserver.data.xml.impl.SkillTreesData;
 import com.l2jserver.gameserver.datatables.SkillData;
 import com.l2jserver.gameserver.model.L2SkillLearn;
@@ -41,8 +40,7 @@ public class AcquireSkillList extends L2GameServerPacket
 	public AcquireSkillList(L2PcInstance activeChar)
 	{
 		_activeChar = activeChar;
-		_learnable = SkillTreesData.getInstance().getAvailableSkills(activeChar, activeChar.getClassId(), false, false);
-		_learnable.addAll(SkillTreesData.getInstance().getNextAvailableSkills(activeChar, activeChar.getClassId(), false, false));
+		_learnable = SkillTreesData.getInstance().getAvailableSkillsList(activeChar, activeChar.getClassId(), false, false);
 	}
 	
 	@Override
@@ -53,14 +51,7 @@ public class AcquireSkillList extends L2GameServerPacket
 		for (L2SkillLearn skill : _learnable)
 		{
 			writeD(skill.getSkillId());
-			if (Config.SERVER_CLASSIC_SUPPORT)
-			{
-				writeH(skill.getSkillLevel());
-			}
-			else
-			{
-				writeD(skill.getSkillLevel());
-			}
+			writeD(skill.getSkillLevel());
 			writeQ(skill.getLevelUpSp());
 			writeC(skill.getGetLevel());
 			writeC(skill.getDualClassLevel());

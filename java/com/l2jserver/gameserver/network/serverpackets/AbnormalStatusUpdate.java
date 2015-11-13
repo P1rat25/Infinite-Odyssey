@@ -50,16 +50,17 @@ public class AbnormalStatusUpdate extends L2GameServerPacket
 				if (info.getSkill().getDisplayLevel() < 100)
 				{
 					writeH(info.getSkill().getDisplayLevel());
-					if (!Config.SERVER_CLASSIC_SUPPORT)
-					{
-						writeH(0x00);
-					}
+					writeH(0x00);
 				}
 				else
 				{
 					final int maxLevel = SkillData.getInstance().getMaxLevel(info.getSkill().getDisplayId());
 					writeH(maxLevel);
 					writeH(info.getSkill().getDisplayLevel());
+					if (!Config.SERVER_CLASSIC_SUPPORT)
+					{
+						writeH(0x00);
+					}
 				}
 				writeD(0x00);
 				writeH(info.getTime());

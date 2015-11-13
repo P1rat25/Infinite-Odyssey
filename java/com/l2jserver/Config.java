@@ -126,7 +126,6 @@ public final class Config
 	public static double RESPAWN_RESTORE_CP;
 	public static double RESPAWN_RESTORE_HP;
 	public static double RESPAWN_RESTORE_MP;
-	public static boolean ALT_GAME_TIREDNESS;
 	public static boolean ENABLE_MODIFY_SKILL_DURATION;
 	public static Map<Integer, Integer> SKILL_DURATION_LIST;
 	public static boolean ENABLE_MODIFY_SKILL_REUSE;
@@ -255,7 +254,7 @@ public final class Config
 	public static boolean PETITIONING_ALLOWED;
 	public static int MAX_PETITIONS_PER_PLAYER;
 	public static int MAX_PETITIONS_PENDING;
-	public static boolean ALT_GAME_FREE_TELEPORT;
+	public static boolean FREE_TELEPORTING;
 	public static int DELETE_DAYS;
 	public static float ALT_GAME_EXPONENT_XP;
 	public static float ALT_GAME_EXPONENT_SP;
@@ -1410,7 +1409,6 @@ public final class Config
 			HP_REGEN_MULTIPLIER = character.getDouble("HpRegenMultiplier", 100) / 100;
 			MP_REGEN_MULTIPLIER = character.getDouble("MpRegenMultiplier", 100) / 100;
 			CP_REGEN_MULTIPLIER = character.getDouble("CpRegenMultiplier", 100) / 100;
-			ALT_GAME_TIREDNESS = character.getBoolean("AltGameTiredness", false);
 			ENABLE_MODIFY_SKILL_DURATION = character.getBoolean("EnableModifySkillDuration", false);
 			
 			// Create Map only if enabled
@@ -1703,7 +1701,7 @@ public final class Config
 			PETITIONING_ALLOWED = character.getBoolean("PetitioningAllowed", true);
 			MAX_PETITIONS_PER_PLAYER = character.getInt("MaxPetitionsPerPlayer", 5);
 			MAX_PETITIONS_PENDING = character.getInt("MaxPetitionsPending", 25);
-			ALT_GAME_FREE_TELEPORT = character.getBoolean("AltFreeTeleporting", false);
+			FREE_TELEPORTING = character.getBoolean("FreeTeleporting", false);
 			DELETE_DAYS = character.getInt("DeleteCharAfterDays", 1);
 			ALT_GAME_EXPONENT_XP = character.getFloat("AltGameExponentXp", 0);
 			ALT_GAME_EXPONENT_SP = character.getFloat("AltGameExponentSp", 0);
@@ -3432,9 +3430,6 @@ public final class Config
 			case "announcemammonspawn":
 				ANNOUNCE_MAMMON_SPAWN = Boolean.parseBoolean(pValue);
 				break;
-			case "altgametiredness":
-				ALT_GAME_TIREDNESS = Boolean.parseBoolean(pValue);
-				break;
 			case "enablefallingdamage":
 				ENABLE_FALLING_DAMAGE = Boolean.parseBoolean(pValue);
 				break;
@@ -3562,8 +3557,8 @@ public final class Config
 			case "castlezonefameaquirepoints":
 				CASTLE_ZONE_FAME_AQUIRE_POINTS = Integer.parseInt(pValue);
 				break;
-			case "altfreeteleporting":
-				ALT_GAME_FREE_TELEPORT = Boolean.parseBoolean(pValue);
+			case "freeteleporting":
+				FREE_TELEPORTING = Boolean.parseBoolean(pValue);
 				break;
 			case "altsubclasswithoutquests":
 				ALT_GAME_SUBCLASS_WITHOUT_QUESTS = Boolean.parseBoolean(pValue);

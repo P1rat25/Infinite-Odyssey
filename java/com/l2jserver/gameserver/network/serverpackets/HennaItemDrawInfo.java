@@ -62,9 +62,6 @@ public class HennaItemDrawInfo extends L2GameServerPacket
 		writeD(_activeChar.getLUC() + _henna.getStatLUC()); // equip LUC
 		writeD(_activeChar.getCHA()); // current CHA
 		writeD(_activeChar.getCHA() + _henna.getStatCHA()); // equip CHA
-		if (!Config.SERVER_CLASSIC_SUPPORT)
-		{
-			writeD(0x00);
-		}
+		writeD(0x00);
 	}
 }

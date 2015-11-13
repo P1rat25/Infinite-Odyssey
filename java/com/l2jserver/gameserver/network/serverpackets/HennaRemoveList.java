@@ -51,10 +51,7 @@ public class HennaRemoveList extends L2GameServerPacket
 				writeQ(henna.getCancelCount());
 				writeQ(henna.getCancelFee());
 				writeD(0x01);
-				if (!Config.SERVER_CLASSIC_SUPPORT)
-				{
-					writeD(0x00);
-				}
+				writeD(0x00);
 			}
 		}
 	}
