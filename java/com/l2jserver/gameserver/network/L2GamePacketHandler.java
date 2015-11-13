@@ -53,6 +53,9 @@ import com.l2jserver.gameserver.network.clientpackets.compound.RequestNewEnchant
 import com.l2jserver.gameserver.network.clientpackets.compound.RequestNewEnchantTry;
 import com.l2jserver.gameserver.network.clientpackets.crystalization.RequestCrystallizeEstimate;
 import com.l2jserver.gameserver.network.clientpackets.crystalization.RequestCrystallizeItemCancel;
+import com.l2jserver.gameserver.network.clientpackets.dailymission.RequestOneDayRewardReceive;
+import com.l2jserver.gameserver.network.clientpackets.dailymission.RequestTodoList;
+import com.l2jserver.gameserver.network.clientpackets.dailymission.RequestTodoListHTML;
 import com.l2jserver.gameserver.network.clientpackets.friend.RequestAnswerFriendInvite;
 import com.l2jserver.gameserver.network.clientpackets.friend.RequestFriendDel;
 import com.l2jserver.gameserver.network.clientpackets.friend.RequestFriendDetailInfo;
@@ -1702,10 +1705,10 @@ public final class L2GamePacketHandler implements IPacketHandler<L2GameClient>, 
 								msg = new RequestTodoList();
 								break;
 							case 0x110:
-								// msg = new RequestTodoListHTML();
+								msg = new RequestTodoListHTML();
 								break;
 							case 0x111:
-								// msg = new RequestOneDayRewardReceive();
+								msg = new RequestOneDayRewardReceive();
 								break;
 							case 0x112:
 								// msg = new RequestPledgeBonusOpen();
